@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="96dp"
+    android:layout_height="72dp"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/iv_selected_contact_image"
+            android:layout_width="@dimen/sel_contact_icon_size"
+            android:layout_height="@dimen/sel_contact_icon_size"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:civ_border_color="@color/colorPrimaryLight"
+            app:civ_border_width="3dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#8BC34A"
+            app:civ_shadow_radius="4"
+            tools:contentDescription="contatto"
+            tools:src="@drawable/ic_group" />
+
+        <ImageView
+            android:id="@+id/iv_selected_remove"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="end|top"
+            android:background="@drawable/ic_clear_black_24dp"
+            android:backgroundTint="@color/tw__composer_red"
+            android:contentDescription="@string/user_profile_image" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txt_selected_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="Giacomo Ranieruuuui" />
+
+</LinearLayout>
+

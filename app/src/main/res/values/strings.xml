@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Expense Share</string>
+    <string name="dummy_content">Expense Share</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">Main Activty</string>
+    <string name="title_activity_group">Group Activty</string>
+    <string name="title_activity_expense">Expense Activty</string>
+    <string name="title_activity_new_expense">New Expense Activty</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_info">Info</string>
+    <string name="action_balance">My Balance</string>
+    <string name="action_groups">Groups</string>
+    <string name="title_fragment_chat">Chat</string>
+    <string name="title_fragment_expenses">Expenses</string>
+    <string name="votation_deadline">Votation Deadline</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="current_balance_text">Current Balance</string>
+    <string name="future_balance_text">Future Balance</string>
+    <string name="monthly_balance_title">Monthly Balance</string>
+    <string name="current_month_balance_title">Current Month Balance</string>
+    <string name="previous_month_balance_title">Previous Month Balance</string>
+
+
+    <string name="template_prompt">Choose your template</string>
+    <string name="search_hint">Search a user by email</string>
+
+    <string name="add_new_group_title">Add users to group</string>
+
+    <string name="no_deadline">No deadline</string>
+    <string name="dislike">Dislike</string>
+    <string name="like">Like</string>
+    <string name="expense_item_image">Expense item image</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="do_payment">Pay</string>
+    <string name="selected_item_image">Selected item image</string>
+    <string name="refunded">Refunded</string>
+    <string name="to_refund">To Refund</string>
+
+    <string name="added_on">Added by %1$s on %2$td/%2$tm/%2$ty %2$tH:%2$tM</string>
+    <string name="remind">Remind</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="refund_state_to_refund">Has to refund</string>
+    <string name="refund_state_refunded">Has refunded</string>
+    <string name="refund_state_waiting_approval">Waiting for approval</string>
+    <string name="action_invite">Invite Friends</string>
+    <string name="select_users">Select users</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="user_profile_image">User profile image</string>
+    <string name="users_joining_number">Users joining the group: %1$d</string>
+    <string name="new_group_dialog_title">Create a group</string>
+    <string name="create_group">Create Group</string>
+    <string name="group_name">Group Name</string>
+    <string name="invite">Invite</string>
+    <string name="search">Search</string>
+    <string name="group_add_success">Group added</string>
+    <string name="group_add_unsuccess">Error adding group</string>
+    <string name="user_add_success">User added</string>
+    <string name="user_add_unsuccess">Error adding user</string>
+    <string name="image_add_success">Image added</string>
+    <string name="image_add_unsuccess">Error adding image</string>
+    <string name="list_text_proposal">In proposal phase</string>
+    <string name="list_text_waiting">Waiting for payment</string>
+    <string name="list_text_closed">Closed</string>
+    <string name="list_text_to_pay">Waiting for your refund</string>
+    <string name="list_text_other_pay">Waiting for refunds</string>
+    <string name="list_text_no_pay">Waiting completion</string>
+    <string name="expense_creation_image">Expense Item Image</string>
+    <string name="hint_item_name">Item name</string>
+    <string name="hint_item_description">Item description</string>
+    <string name="hint_item_price">Item Price</string>
+    <string name="text_proposal_step">Proposal Step</string>
+    <string name="hint_expense_description">Expense Description</string>
+    <string name="hint_expense_name">Expense Name</string>
+    <string name="hint_refund_policy">Refund Policy</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="text_select_deadline">Select deadline</string>
+    <string name="remove_image_question">Do you want to remove the image?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_proposal_image_cont_desc">Proposal Image</string>
+    <string name="hit_proposal_name">Proposal Name</string>
+    <string name="hint_proposal_description">Proposal description</string>
+    <string name="hint_proposal_price">Proposal Price</string>
+    <string name="add_proposal">Add Proposal</string>
+    <string name="error_empty">You can\'t leave this empty.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="showusers">Users list</string>
+    <string name="selected_users">Selected Users</string>
+    <string name="no_users_selected">No users selected</string>
+    <string name="no_groups">No groups available</string>
+    <string name="payment_description">Payment Description</string>
+    <string name="payment_image">Payment Image</string>
+    <string name="pay">Pay</string>
+    <string name="select_image">Select Image</string>
+    <string name="dialog_pay">Register Payment</string>
+    <string name="no_description">No Description</string>
+    <string name="notification_ticker_new_payment">New Payment</string>
+    <string name="notification_title_new_payment">New Payment from %2$s in %1$s</string>
+    <string name="notification_ticker_new_message">New Message</string>
+    <string name="notification_title_new_message">New Message from %2$s in %1$s</string>
+    <string name="notification_ticker_new_expense">New Expense added</string>
+    <string name="notification_title_new_expense">New Expense Added to %1$s</string>
+    <string name="notification_text_new_expense">Expense %1$s has benn added by %2$s</string>
+    <string name="notification_text_new_payment">%1$s\n%2$d€</string>
+    <string name="notification_ticker_new_group">You have been added to a new group</string>
+    <string name="notification_title_new_group">Added to a new Group %1$s</string>
+    <string name="notification_text_new_group">Added by %1$s</string>
+    <string name="notification_ticker_payment_reminder">A payment is waiting you</string>
+    <string name="notification_title_payment_reminder">The payment for %1$s in %2$s is waiting you</string>
+    <string name="notification_text_payment_reminder">You have to pay %1$d € to %2$s</string>
+    <string name="notification_welcome">Welcome to ExpenseShare</string>
+    <string name="expense_share_logo">Expense Share Logo</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+    <string name="added_by_no_time">Added by %1$s</string>
+    <string name="time">%1$td/%1$tm/%1$ty %1$tH:%1$tM</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="select_file">Select File</string>
+    <string name="groups_title">Groups</string>
+    <string name="send_refund_message">Send Refund</string>
+    <string name="waiting_confirm_message">Waiting for your payment to be confirmed</string>
+    <string name="debt">You owe %1$,.2f € to %2$s</string>
+    <string name="payment_message">Payment Message</string>
+    <string name="proposal_label">proposal</string>
+    <string name="waiting_label">waiting</string>
+    <string name="refund_label">refund</string>
+    <string name="select_proposal">Select Proposal</string>
+    <string name="no_proposal">No Proposal Available</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="details">DETAILS</string>
+    <string name="outgoing_payments">Outgoing Payments</string>
+    <string name="incoming_payments">Incoming Payments</string>
+
+</resources>
